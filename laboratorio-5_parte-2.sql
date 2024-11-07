@@ -8,3 +8,8 @@ Nacionalidad VARCHAR (100) NOT NULL,
 Fecha_nacimiento DATE
 );
 
+USE biblioteca;
+CREATE TABLE categorias (
+ID_categoria INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+Nombre_categoria VARCHAR (50) NOT NULL
+);
