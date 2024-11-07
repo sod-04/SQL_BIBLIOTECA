@@ -66,3 +66,12 @@ VALUES ('Carlos Martínez', 'Calle Luna, 123','123456789'), ('Lucía Fernández'
 USE biblioteca;
 INSERT INTO prestamos (ID_usuario, ID_libro, Fecha_prestamo, Fecha_devolucion)
 VALUES (1, 1,'2024-08-01', '2024-08-15'), (2, 2, '2024-08-02','2024-08-16');
+
+USE biblioteca;
+CREATE TABLE Prestamos_usuarios (
+ID_relacion INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+ID_prestamo INT NOT NULL,
+ID_usuario INT NOT NULL,
+FOREIGN KEY (ID_prestamo) REFERENCES prestamos (ID_prestamo),
+FOREIGN KEY (ID_usuario) REFERENCES usuarios (ID_usuario)
+);
