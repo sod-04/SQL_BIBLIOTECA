@@ -49,3 +49,7 @@ USE biblioteca;
 INSERT INTO autores (Nombre,Nacionalidad, Fecha_Nacimiento)
 VALUES ('Gabriel García Márquez','Colombiano','1927-03-06'), 
  ('J.K. Rowling','Británica','1965-07-31'), ('George Orwell','Británica','1903-06-25');
+
+USE biblioteca;
+INSERT INTO categorias (Nombre_categoria)
+VALUES ('Novela'), ('Ciencia Ficción'), ('Fantasía'), ('Ensayo');
