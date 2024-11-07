@@ -18,3 +18,8 @@ USE biblioteca;
 DELETE FROM libros
 WHERE titulo = 'La
 era de 1984';
+
+--------- Seleccionar todos los libros
+
+USE biblioteca;
+SELECT * FROM libros;
