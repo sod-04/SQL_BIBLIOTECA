@@ -23,3 +23,8 @@ era de 1984';
 
 USE biblioteca;
 SELECT * FROM libros;
+
+-------- Seleccionar todos los autores
+
+USE biblioteca;
+SELECT * FROM autores;
