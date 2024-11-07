@@ -25,3 +25,11 @@ Disponible BOOLEAN DEFAULT TRUE,
 FOREIGN KEY (ID_autor) REFERENCES autores (ID_autor),
 FOREIGN KEY (ID_categoria) REFERENCES categorias (ID_categoria)
 );
+
+USE biblioteca;
+CREATE TABLE usuarios (
+ID_usuario INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+Nombre VARCHAR (100) NOT NULL,
+Direccion VARCHAR (100),
+Telefono VARCHAR (20) 
+);
