@@ -58,3 +58,7 @@ USE biblioteca;
 INSERT INTO Libros (Titulo, ID_autor, ID_categoria, Año_publicacion)
 VALUES ('Cien Años de Soledad', 1, 1, 1967), ('Harry Potter y la Piedra Filosofal', 2, 3, 1997), ('La
 era de 1984', 3, 2, 1949);
+
+USE biblioteca;
+INSERT INTO usuarios (Nombre, Direccion, Telefono)
+VALUES ('Carlos Martínez', 'Calle Luna, 123','123456789'), ('Lucía Fernández', 'Avenida Sol, 456', '987654321');
