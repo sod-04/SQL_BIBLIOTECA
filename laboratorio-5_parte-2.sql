@@ -28,3 +28,9 @@ SELECT * FROM libros;
 
 USE biblioteca;
 SELECT * FROM autores;
+
+------- Seleccionar el libro de Gabriel García Márquez
+
+USE biblioteca;
+SELECT * FROM libros 
+WHERE ID_autor = 1;
