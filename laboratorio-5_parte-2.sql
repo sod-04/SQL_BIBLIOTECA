@@ -62,3 +62,7 @@ era de 1984', 3, 2, 1949);
 USE biblioteca;
 INSERT INTO usuarios (Nombre, Direccion, Telefono)
 VALUES ('Carlos Martínez', 'Calle Luna, 123','123456789'), ('Lucía Fernández', 'Avenida Sol, 456', '987654321');
+
+USE biblioteca;
+INSERT INTO prestamos (ID_usuario, ID_libro, Fecha_prestamo, Fecha_devolucion)
+VALUES (1, 1,'2024-08-01', '2024-08-15'), (2, 2, '2024-08-02','2024-08-16');
