@@ -53,3 +53,8 @@ VALUES ('Gabriel García Márquez','Colombiano','1927-03-06'),
 USE biblioteca;
 INSERT INTO categorias (Nombre_categoria)
 VALUES ('Novela'), ('Ciencia Ficción'), ('Fantasía'), ('Ensayo');
+
+USE biblioteca;
+INSERT INTO Libros (Titulo, ID_autor, ID_categoria, Año_publicacion)
+VALUES ('Cien Años de Soledad', 1, 1, 1967), ('Harry Potter y la Piedra Filosofal', 2, 3, 1997), ('La
+era de 1984', 3, 2, 1949);
