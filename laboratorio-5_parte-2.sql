@@ -11,3 +11,10 @@ USE biblioteca;
 UPDATE prestamos
 SET fecha_devolucion = '2024-09-01'
 WHERE ID_prestamo = 2;
+
+--------- Eliminar un libro de la base de datos
+
+USE biblioteca;
+DELETE FROM libros
+WHERE titulo = 'La
+era de 1984';
