@@ -34,3 +34,9 @@ SELECT * FROM autores;
 USE biblioteca;
 SELECT * FROM libros 
 WHERE ID_autor = 1;
+
+------- Mostrar los libros devueltos en el mes 8 de la tabla prestamos del año 2024
+
+USE biblioteca;
+SELECT * FROM prestamos
+WHERE MONTH (fecha_devolucion) = 8 AND YEAR (fecha_devolucion) = 2024;
